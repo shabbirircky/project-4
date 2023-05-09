@@ -1,0 +1,194 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* <!-- ------------------------------------HERO SECTION sTART------------------------------ --> */
+.btn-1{
+    width: 150px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    box-shadow:  #8a2be285 2px 4px 12px -1px;;
+}
+.btn-1:hover{
+    background-color: aquamarine;
+
+}
+.btn-2{
+    padding: 10px 20px;
+    background-color:beige;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 7%;
+}
+.btn-2:hover{
+    background-color: aqua;
+    color: black;
+
+}
+.btn-3{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.btn-3:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.logo img{
+    width: 170px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.p-co-1{
+    color: white;
+
+}
+.bg-co-1{
+    background: rgb(2,0,36);
+background: linear-gradient(124deg, rgba(2,0,36,1) 52%, rgba(0,212,255,1) 53%);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+ul li a {text-decoration: none;color: #678C92;font-weight: 400;}
+
+.full-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-section{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+.write-section{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+
+}
+.img-wid{
+    width: 90%;
+}
+.btng {
+    display: flex;
+}
+/* <!-- ------------------------------------Scound SECTION START------------------------------ --> */
+.secound-section{
+    margin-top: 100px;
+    margin-bottom: 150px;
+
+}
+.three-div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.three-div-1{
+    margin-top: 50px;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    background-color: antiquewhite;
+}
+
+i.fa-regular.fa-image {
+    font-size: 60px;
+}
+
+
+
+/* <!-- ------------------------------------Scound SECTION END------------------------------ --> */
+
+/* <!-- ------------------------------------Third SECTION START------------------------------ --> */
+.third-sec{
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.p-co-2{
+    color: #678C92;
+
+}
+
+
+/* <!-- ------------------------------------Third SECTION END------------------------------ --> */
+/* <!-- ------------------------------------Four SECTION START------------------------------ --> */
+
+.three-div-2{
+        display: flex;
+        justify-content: center;
+}
+.three-div-3{
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
+.img-sz-2{
+    width: 95%;
+}
+.bg-co-3{
+    background-color: rgb(196, 255, 255);
+}
+
+/* <!-- ------------------------------------Four SECTION END------------------------------ --> */
+/* <!-- --------------------------------------section-5 start-------------------------- --> */
+.sec-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.left-sec{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.write-sec{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.left-sec-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.i-2{
+    font-size: 30px;
+}
+
+
+.co-flx{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.write-sec{
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px black;
+    padding: 50px 20px 30px 20px;
+    border-radius: 3%;
+    
+}
+/* <!-- --------------------------------------section-5 END-------------------------- --> */
